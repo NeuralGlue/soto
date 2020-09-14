@@ -40,9 +40,9 @@ Then add target dependencies for each of the Soto targets you want to use.
 ```swift
     targets: [
         .target(name: "MyAWSApp", dependencies: [
-            .product(name: "AWSS3", package: "soto"),
-            .product(name: "AWSSES", package: "soto"),
-            .product(name: "AWSIAM", package: "soto")
+            .product(name: "SotoS3", package: "soto"),
+            .product(name: "SotoSES", package: "soto"),
+            .product(name: "SotoIAM", package: "soto")
         ]),
     ]
 )
